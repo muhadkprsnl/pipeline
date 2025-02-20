@@ -1,4 +1,4 @@
-import { cs1 } from "./sample/unt"; // Ensure this path is correct and the module exists
+import { cs1 } from "./sample/unt.ts"; // Ensure this path is correct and the module exists
 
 describe('Coach listing', () => {
     const players = new cs1();
