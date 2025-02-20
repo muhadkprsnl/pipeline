@@ -111,9 +111,9 @@ export class cs1 {
 
     //     //other  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    //     verifyaddNewMembers() {
-    //         cy.url().should('contain', 'https://academy-dev.dartle.app/members/list'); // Ensure login was successful
-    //     }
+    verifyaddNewMembers() {
+        cy.url().should('contain', 'https://academy-dev.dartle.app/members/list'); // Ensure login was successful
+    }
 
     //     verifyCopyInvitation() {
     //         cy.url().should('contain', 'https://academy-dev.dartle.app/self-registration/6451f714413fa18c66462066');
