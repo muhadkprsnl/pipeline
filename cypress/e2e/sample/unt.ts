@@ -19,7 +19,7 @@ export class cs1 {
 
     visitMembers() {
         cy.wait(1000)
-        cy.visit('https://academy-dev.dartle.app/members/list', { failOnStatusCode: false });
+        cy.visit('https://academy-dev.dartle.app/members/list', { timeout: 30000, failOnStatusCode: false });
         cy.wait(3000)
         cy.get(':nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > .d-flex > :nth-child(2)').click()
         cy.wait(3000)

@@ -12,5 +12,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // Implement node event listeners here
     },
+
   },
 });
